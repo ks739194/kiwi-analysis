@@ -1,0 +1,1430 @@
+{
+    "tool":  "KIWI optional behavior observer v3",
+    "note":  "NO packet capture, no IP addresses, no command lines, no prompts, no files read from target.",
+    "length_seconds":  40,
+    "samples":  [
+                    {
+                        "time_offset_seconds":  0,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  2,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  4,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  6,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  8,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  10,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  12,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  14,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14932,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "SynSent",
+                                                    "local_port":  14932,
+                                                    "remote_port":  8188,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  16,
+                        "process_count":  4,
+                        "processes":  [
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14935,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "SynSent",
+                                                    "local_port":  14935,
+                                                    "remote_port":  8188,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  18,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14938,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "SynSent",
+                                                    "local_port":  14938,
+                                                    "remote_port":  8188,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  20,
+                        "process_count":  6,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  50916,
+                                              "name":  "python.exe",
+                                              "parent_name":  "python.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  22,
+                        "process_count":  6,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          },
+                                          {
+                                              "pid":  48960,
+                                              "name":  "python.exe",
+                                              "parent_name":  "python.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  24,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14947,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "SynSent",
+                                                    "local_port":  14947,
+                                                    "remote_port":  8188,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  26,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  28,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  30,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14970,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "SynSent",
+                                                    "local_port":  14970,
+                                                    "remote_port":  8188,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  32,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  34,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  36,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14971,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "SynSent",
+                                                    "local_port":  14971,
+                                                    "remote_port":  8188,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    },
+                    {
+                        "time_offset_seconds":  38,
+                        "process_count":  5,
+                        "processes":  [
+                                          {
+                                              "pid":  38772,
+                                              "name":  "cmd.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  19356,
+                                              "name":  "python.exe",
+                                              "parent_name":  "kiwi.exe"
+                                          },
+                                          {
+                                              "pid":  48732,
+                                              "name":  "start_kiwi_有后台窗口.exe",
+                                              "parent_name":  "explorer.exe"
+                                          },
+                                          {
+                                              "pid":  48404,
+                                              "name":  "conhost.exe",
+                                              "parent_name":  "start_kiwi_有后台窗口.exe"
+                                          },
+                                          {
+                                              "pid":  50264,
+                                              "name":  "kiwi.exe",
+                                              "parent_name":  "cmd.exe"
+                                          }
+                                      ],
+                        "tcp_connections":  [
+                                                {
+                                                    "process_name":  "python.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14974,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14931,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Bound",
+                                                    "local_port":  14713,
+                                                    "remote_port":  0,
+                                                    "remote_class":  "any-listen-address"
+                                                },
+                                                {
+                                                    "process_name":  "python.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14974,
+                                                    "remote_port":  14973,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "python.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14973,
+                                                    "remote_port":  14974,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14931,
+                                                    "remote_port":  14930,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14930,
+                                                    "remote_port":  14931,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14713,
+                                                    "remote_port":  14712,
+                                                    "remote_class":  "loopback"
+                                                },
+                                                {
+                                                    "process_name":  "kiwi.exe",
+                                                    "state":  "Established",
+                                                    "local_port":  14712,
+                                                    "remote_port":  14713,
+                                                    "remote_class":  "loopback"
+                                                }
+                                            ]
+                    }
+                ]
+}

@@ -1,0 +1,1418 @@
+{
+  "tool_version": "3.0.0",
+  "date_utc": "2026-10-10T07:37:05.655324+00:00",
+  "scope": "read-only, offline; no application executed; no ComfyUI traversal",
+  "source_root": "[REDACTED_LOCAL_PATH]",
+  "binary": [
+    {
+      "file": "kiwi.exe",
+      "size": 13748736,
+      "sha256": "3969666bfd3a03c8e502a882868c4fd8ffc243b874e4ee131dacf86069393872",
+      "entropy_whole": 7.916,
+      "format": "PE32+",
+      "machine": "0x8664",
+      "section_count": 3,
+      "timestamp_utc": "2026-10-10T04:13:51+00:00",
+      "subsystem": 3,
+      "sections": [
+        {
+          "name": "UPX0",
+          "virtual_size": 27512832,
+          "raw_size": 0,
+          "entropy_first_2MiB": 0.0
+        },
+        {
+          "name": "UPX1",
+          "virtual_size": 13746176,
+          "raw_size": 13746176,
+          "entropy_first_2MiB": 7.939
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 4096,
+          "raw_size": 2048,
+          "entropy_first_2MiB": 4.467
+        }
+      ],
+      "overlay_bytes_estimate": 0,
+      "framework_markers": {
+        "UPX header": {
+          "occurrences": 1,
+          "first_offset": 517
+        },
+        "Nuitka marker": {
+          "occurrences": 1,
+          "first_offset": 13641475
+        },
+        "Python 3.10 DLL": {
+          "occurrences": 1,
+          "first_offset": 13748092
+        }
+      },
+      "api_path_markers": {
+        "ComfyUI websocket": {
+          "occurrences": 3,
+          "first_offset": 574486
+        }
+      },
+      "upx_packed_likely": true,
+      "imports": [
+        {
+          "dll": "KERNEL32.DLL",
+          "imports": [
+            "LoadLibraryA",
+            "ExitProcess",
+            "GetProcAddress",
+            "VirtualProtect"
+          ]
+        },
+        {
+          "dll": "msvcrt.dll",
+          "imports": [
+            "exit"
+          ]
+        },
+        {
+          "dll": "python310.dll",
+          "imports": [
+            "Py_Exit"
+          ]
+        },
+        {
+          "dll": "SHELL32.dll",
+          "imports": [
+            "SHGetFolderPathW"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "start_kiwi_无后台窗口.exe",
+      "size": 71680,
+      "sha256": "f4e28dd3ddd381d6665784b097ad8528f2d918af85c0d1aa712a3e5c43b1361f",
+      "entropy_whole": 7.076,
+      "format": "PE32",
+      "machine": "0x14c",
+      "section_count": 3,
+      "timestamp_utc": "2019-07-30T08:52:50+00:00",
+      "subsystem": 2,
+      "sections": [
+        {
+          "name": "UPX0",
+          "virtual_size": 90112,
+          "raw_size": 0,
+          "entropy_first_2MiB": 0.0
+        },
+        {
+          "name": "UPX1",
+          "virtual_size": 49152,
+          "raw_size": 45568,
+          "entropy_first_2MiB": 7.955
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 28672,
+          "raw_size": 25600,
+          "entropy_first_2MiB": 4.138
+        }
+      ],
+      "overlay_bytes_estimate": 0,
+      "framework_markers": {
+        "UPX header": {
+          "occurrences": 1,
+          "first_offset": 501
+        }
+      },
+      "api_path_markers": {},
+      "upx_packed_likely": true,
+      "imports": [
+        {
+          "dll": "COMCTL32.DLL",
+          "imports": [
+            "InitCommonControlsEx"
+          ]
+        },
+        {
+          "dll": "GDI32.DLL",
+          "imports": [
+            "GetStockObject"
+          ]
+        },
+        {
+          "dll": "KERNEL32.DLL",
+          "imports": [
+            "LoadLibraryA",
+            "ExitProcess",
+            "GetProcAddress",
+            "VirtualProtect"
+          ]
+        },
+        {
+          "dll": "MSVCRT.dll",
+          "imports": [
+            "free"
+          ]
+        },
+        {
+          "dll": "OLE32.DLL",
+          "imports": [
+            "CoInitialize"
+          ]
+        },
+        {
+          "dll": "SHELL32.DLL",
+          "imports": [
+            "ShellExecuteExW"
+          ]
+        },
+        {
+          "dll": "SHLWAPI.DLL",
+          "imports": [
+            "PathRemoveArgsW"
+          ]
+        },
+        {
+          "dll": "USER32.DLL",
+          "imports": [
+            "SetFocus"
+          ]
+        },
+        {
+          "dll": "WINMM.DLL",
+          "imports": [
+            "timeBeginPeriod"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "start_kiwi_有后台窗口.exe",
+      "size": 71680,
+      "sha256": "9b1fba7d53ac0324d76cf212ad1737c4dd8f387a6f8b7383c7ec6440360c4ad3",
+      "entropy_whole": 7.093,
+      "format": "PE32",
+      "machine": "0x14c",
+      "section_count": 3,
+      "timestamp_utc": "2019-07-30T08:52:45+00:00",
+      "subsystem": 3,
+      "sections": [
+        {
+          "name": "UPX0",
+          "virtual_size": 90112,
+          "raw_size": 0,
+          "entropy_first_2MiB": 0.0
+        },
+        {
+          "name": "UPX1",
+          "virtual_size": 49152,
+          "raw_size": 45568,
+          "entropy_first_2MiB": 7.967
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 28672,
+          "raw_size": 25600,
+          "entropy_first_2MiB": 4.137
+        }
+      ],
+      "overlay_bytes_estimate": 0,
+      "framework_markers": {
+        "UPX header": {
+          "occurrences": 1,
+          "first_offset": 501
+        }
+      },
+      "api_path_markers": {},
+      "upx_packed_likely": true,
+      "imports": [
+        {
+          "dll": "COMCTL32.DLL",
+          "imports": [
+            "InitCommonControlsEx"
+          ]
+        },
+        {
+          "dll": "GDI32.DLL",
+          "imports": [
+            "GetStockObject"
+          ]
+        },
+        {
+          "dll": "KERNEL32.DLL",
+          "imports": [
+            "LoadLibraryA",
+            "ExitProcess",
+            "GetProcAddress",
+            "VirtualProtect"
+          ]
+        },
+        {
+          "dll": "MSVCRT.dll",
+          "imports": [
+            "free"
+          ]
+        },
+        {
+          "dll": "OLE32.DLL",
+          "imports": [
+            "CoInitialize"
+          ]
+        },
+        {
+          "dll": "SHELL32.DLL",
+          "imports": [
+            "ShellExecuteExW"
+          ]
+        },
+        {
+          "dll": "SHLWAPI.DLL",
+          "imports": [
+            "PathRemoveArgsW"
+          ]
+        },
+        {
+          "dll": "USER32.DLL",
+          "imports": [
+            "SetFocus"
+          ]
+        },
+        {
+          "dll": "WINMM.DLL",
+          "imports": [
+            "timeBeginPeriod"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "update_temp/kiwi.exe",
+      "size": 13748736,
+      "sha256": "3969666bfd3a03c8e502a882868c4fd8ffc243b874e4ee131dacf86069393872",
+      "entropy_whole": 7.916,
+      "format": "PE32+",
+      "machine": "0x8664",
+      "section_count": 3,
+      "timestamp_utc": "2026-10-10T04:13:51+00:00",
+      "subsystem": 3,
+      "sections": [
+        {
+          "name": "UPX0",
+          "virtual_size": 27512832,
+          "raw_size": 0,
+          "entropy_first_2MiB": 0.0
+        },
+        {
+          "name": "UPX1",
+          "virtual_size": 13746176,
+          "raw_size": 13746176,
+          "entropy_first_2MiB": 7.939
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 4096,
+          "raw_size": 2048,
+          "entropy_first_2MiB": 4.467
+        }
+      ],
+      "overlay_bytes_estimate": 0,
+      "framework_markers": {
+        "UPX header": {
+          "occurrences": 1,
+          "first_offset": 517
+        },
+        "Nuitka marker": {
+          "occurrences": 1,
+          "first_offset": 13641475
+        },
+        "Python 3.10 DLL": {
+          "occurrences": 1,
+          "first_offset": 13748092
+        }
+      },
+      "api_path_markers": {
+        "ComfyUI websocket": {
+          "occurrences": 3,
+          "first_offset": 574486
+        }
+      },
+      "upx_packed_likely": true,
+      "imports": [
+        {
+          "dll": "KERNEL32.DLL",
+          "imports": [
+            "LoadLibraryA",
+            "ExitProcess",
+            "GetProcAddress",
+            "VirtualProtect"
+          ]
+        },
+        {
+          "dll": "msvcrt.dll",
+          "imports": [
+            "exit"
+          ]
+        },
+        {
+          "dll": "python310.dll",
+          "imports": [
+            "Py_Exit"
+          ]
+        },
+        {
+          "dll": "SHELL32.dll",
+          "imports": [
+            "SHGetFolderPathW"
+          ]
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "file": "update_temp/kiwi_digital.zip",
+      "bytes": 13544076,
+      "entry_count": 1,
+      "uncompressed_bytes": 13748736,
+      "extensions_count": {
+        ".exe": 1
+      },
+      "comfyui_dir_present": false,
+      "contains_kiwi_exe": true
+    }
+  ],
+  "config_structures": [
+    {
+      "name": "kiwi.config",
+      "bytes": 11145,
+      "status": "json_structure_only",
+      "structure": {
+        "type": "object",
+        "keys_count": 177,
+        "fields": {
+          "[HIDDEN_KEY_6d131ad48e]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_7f1d57366a]": {
+            "type": "string"
+          },
+          "threads": {
+            "type": "int"
+          },
+          "timer": {
+            "type": "int"
+          },
+          "comfy_api": {
+            "type": "string"
+          },
+          "comfy_dir": {
+            "type": "string"
+          },
+          "dock_win_geom": {
+            "type": "array",
+            "length": 4,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "player_geom": {
+            "type": "array",
+            "length": 4,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "[HIDDEN_KEY_f156f42404]": {
+            "type": "object",
+            "keys_count": 21,
+            "fields": {
+              "[HIDDEN_KEY_e11709eae9]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_80a531b0f5]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_06766c17ef]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_46728361f3]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_07a412e19b]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_83b5b82e37]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_2489a357ad]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_afeec9c06f]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_f4941c54a2]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_2bf0da11b4]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_f0138977b6]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_2b94c4201e]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_69ee3c0f9e]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_c596f23606]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_81f271864a]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_e9058ebbe8]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_9c2e0b785e]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_af9fac1ea7]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_8096ce85ab]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_4c90bcaaee]": {
+                "type": "string"
+              },
+              "[HIDDEN_KEY_1e3e9707ae]": {
+                "type": "string"
+              }
+            }
+          },
+          "engine": {
+            "type": "string"
+          },
+          "AI自动保存": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_60dd86e67b]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_38aa5bbe89]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_3d27bfcb31]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_6418bcda62]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_edfc2e12b9]": {
+            "type": "bool"
+          },
+          "nvidia_type": {
+            "type": "string"
+          },
+          "UpscaleState": {
+            "type": "bool"
+          },
+          "UpscaleMode": {
+            "type": "int"
+          },
+          "UpscaleAmount": {
+            "type": "array",
+            "length": 2,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "OccluderState": {
+            "type": "bool"
+          },
+          "OccluderMode": {
+            "type": "int"
+          },
+          "OccluderAmount": {
+            "type": "array",
+            "length": 1,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "DetectTypeState": {
+            "type": "bool"
+          },
+          "DetectTypeMode": {
+            "type": "int"
+          },
+          "DetectTypeAmount": {
+            "type": "array",
+            "length": 1,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "ThresholdState": {
+            "type": "bool"
+          },
+          "ThresholdMode": {
+            "type": "int"
+          },
+          "ThresholdAmount": {
+            "type": "array",
+            "length": 1,
+            "sample_type": {
+              "type": "float"
+            }
+          },
+          "FaceParserState": {
+            "type": "bool"
+          },
+          "FaceParserMode": {
+            "type": "int"
+          },
+          "FaceParserAmount": {
+            "type": "array",
+            "length": 2,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "ScaleSizeState": {
+            "type": "bool"
+          },
+          "ScaleSizeMode": {
+            "type": "int"
+          },
+          "ScaleSizeAmount": {
+            "type": "array",
+            "length": 8,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "StrengthState": {
+            "type": "bool"
+          },
+          "StrengthMode": {
+            "type": "int"
+          },
+          "StrengthAmount": {
+            "type": "array",
+            "length": 1,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "BlurState": {
+            "type": "bool"
+          },
+          "BlurMode": {
+            "type": "int"
+          },
+          "BlurAmount": {
+            "type": "array",
+            "length": 2,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "SegFrameState": {
+            "type": "bool"
+          },
+          "SegFrameMode": {
+            "type": "int"
+          },
+          "SegFrameAmount": {
+            "type": "array",
+            "length": 1,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "[HIDDEN_KEY_952e7c977d]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_a1ee0e7a05]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_b86f336967]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_a361f8359a]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_2e07f04518]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_2d1e484462]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_966e4e32cb]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_cc01972437]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_3c4d67797d]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_7114431a49]": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "AI生成自动保存到输出文件夹": {
+            "type": "bool"
+          },
+          "AI生成自动保存到源文件夹": {
+            "type": "bool"
+          },
+          "upscale_models": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_f5ca1842c0]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_3851ee6cc8]": {
+            "type": "string"
+          },
+          "ai_img_format": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_c4cbdbdeee]": {
+            "type": "string"
+          },
+          "AI生成略图数量": {
+            "type": "int"
+          },
+          "[HIDDEN_KEY_749e65d339]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_d69f8a75c7]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_037c7763b6]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_53bc431c24]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_d686c0bbd7]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_1ca0bcbbd5]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_6e59efb6cd]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_82b88d8879]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_8091b7f622]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_ff1adb0f22]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_9178642b3a]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_eaf6509b37]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_ed475f7120]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_81f8e74d3f]": {
+            "type": "bool"
+          },
+          "kiwi_helper": {
+            "type": "object",
+            "keys_count": 2,
+            "fields": {
+              "window_x": {
+                "type": "int"
+              },
+              "window_y": {
+                "type": "int"
+              }
+            }
+          },
+          "[HIDDEN_KEY_7674248734]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_7ded7f6c85]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_df1ec2116b]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_d6e8611f0e]": {
+            "type": "bool"
+          },
+          "[HIDDEN_KEY_f1fef74880]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_3dd08df215]": {
+            "type": "string"
+          },
+          "img_pre_process": {
+            "type": "string"
+          },
+          "Train_Lora_work_dir": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_7662b670af]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_eeb0089458]": {
+            "type": "string"
+          },
+          "AI生成自动保存到文件夹": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_914944de04]": {
+            "type": "string"
+          },
+          "TransformState": {
+            "type": "bool"
+          },
+          "TransformMode": {
+            "type": "int"
+          },
+          "TransformAmount": {
+            "type": "array",
+            "length": 1,
+            "sample_type": {
+              "type": "float"
+            }
+          },
+          "BorderState": {
+            "type": "bool"
+          },
+          "BorderMode": {
+            "type": "int"
+          },
+          "BorderAmount": {
+            "type": "array",
+            "length": 4,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "RefDelState": {
+            "type": "bool"
+          },
+          "RefDelMode": {
+            "type": "int"
+          },
+          "RefDelAmount": {
+            "type": "array",
+            "length": 3,
+            "sample_type": {
+              "type": "int"
+            }
+          },
+          "ColorState": {
+            "type": "bool"
+          }
+        }
+      }
+    },
+    {
+      "name": "llm_service.config",
+      "bytes": 283,
+      "status": "json_structure_only",
+      "structure": {
+        "type": "object",
+        "keys_count": 9,
+        "fields": {
+          "llm_provider_kind": {
+            "type": "string"
+          },
+          "api_provider": {
+            "type": "string"
+          },
+          "api_base_url": {
+            "type": "string"
+          },
+          "api_model": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_5df8c18e40]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_2e9bc6c94a]": {
+            "type": "string"
+          },
+          "ollama_api": {
+            "type": "string"
+          },
+          "ollama_model": {
+            "type": "string"
+          },
+          "api_profiles": {
+            "type": "object",
+            "keys_count": 0,
+            "fields": {}
+          }
+        }
+      }
+    },
+    {
+      "name": "workflow_presets.json",
+      "bytes": 675,
+      "status": "json_structure_only",
+      "structure": {
+        "type": "object",
+        "keys_count": 3,
+        "fields": {
+          "version": {
+            "type": "int"
+          },
+          "active_preset": {
+            "type": "string"
+          },
+          "presets": {
+            "type": "object",
+            "keys_count": 1,
+            "fields": {
+              "[HIDDEN_KEY_0fa76bcd07]": {
+                "type": "object",
+                "keys_count": 4,
+                "fields": {
+                  "description": {
+                    "type": "string"
+                  },
+                  "gpu_profile": {
+                    "type": "string"
+                  },
+                  "content_mode": {
+                    "type": "string"
+                  },
+                  "tasks": {
+                    "type": "object",
+                    "keys_count": 7,
+                    "fields": {
+                      "txt2img": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "img2img": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "img_edit": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "t2v": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "i2v": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "f2v": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "voice_clone": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "ai_prompts.json",
+      "bytes": 5476,
+      "status": "json_structure_only",
+      "structure": {
+        "type": "object",
+        "keys_count": 12,
+        "fields": {
+          "[HIDDEN_KEY_2b10195ac0]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_78eddd5303]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_a5eca55b1e]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_93dae4fa34]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_8bae247f37]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_c2fe19e7ce]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_16b582fb50]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_7e479a72be]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_07594c6b17]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_1c285a29e2]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_65864cf45e]": {
+            "type": "string"
+          },
+          "[HIDDEN_KEY_0dc8fe8ffb]": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "name": "version.txt",
+      "bytes": 64,
+      "status": "text_no_structure",
+      "line_count": 1
+    }
+  ],
+  "databases": [
+    {
+      "file": "kiwi_db/ai_knowledge.kdb",
+      "bytes": 79065,
+      "sha256": "f03615de2cbe2eeef4e1c6c64042ab327c40d6f1b7e084f8de3322c6c78f09f2",
+      "signature_type": "unknown_or_proprietary",
+      "entropy_first_64KiB": 3.973,
+      "printable_fraction_first_64KiB": 0.176
+    },
+    {
+      "name": "kiwi_db/kiwi_knowledge.json",
+      "bytes": 226,
+      "status": "json_structure_only",
+      "structure": {
+        "type": "object",
+        "keys_count": 6,
+        "fields": {
+          "sha256": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          },
+          "size": {
+            "type": "int"
+          },
+          "modified_time": {
+            "type": "float"
+          },
+          "version": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "file": "kiwi_db/kiwi_knowledge.kdb",
+      "bytes": 1939500,
+      "sha256": "449c98feaae2a1c74fe4232f29b188abb3c087efe797542d246caeaec5ec5818",
+      "signature_type": "unknown_or_proprietary",
+      "entropy_first_64KiB": 6.523,
+      "printable_fraction_first_64KiB": 0.346
+    },
+    {
+      "file": "kiwi_db/person_knowledge.kdb",
+      "bytes": 16044,
+      "sha256": "eebea02d37d491720429f0bb6be99087998a691b97c20402900d1fb789a6b86c",
+      "signature_type": "unknown_or_proprietary",
+      "entropy_first_64KiB": 5.345,
+      "printable_fraction_first_64KiB": 0.24
+    }
+  ],
+  "project_data": [
+    {
+      "name": "projects/[PROJECT]/timeline_data.json",
+      "bytes": 12452,
+      "status": "text_no_structure",
+      "line_count": 1
+    }
+  ],
+  "workflows": [
+    {
+      "file": "workflow_presets.json",
+      "bytes": 675,
+      "status": "json_structure_only",
+      "format": "general_json",
+      "structure": {
+        "type": "object",
+        "keys_count": 3,
+        "fields": {
+          "version": {
+            "type": "int"
+          },
+          "active_preset": {
+            "type": "string"
+          },
+          "presets": {
+            "type": "object",
+            "keys_count": 1,
+            "fields": {
+              "[HIDDEN_KEY_0fa76bcd07]": {
+                "type": "object",
+                "keys_count": 4,
+                "fields": {
+                  "description": {
+                    "type": "string"
+                  },
+                  "gpu_profile": {
+                    "type": "string"
+                  },
+                  "content_mode": {
+                    "type": "string"
+                  },
+                  "tasks": {
+                    "type": "object",
+                    "keys_count": 7,
+                    "fields": {
+                      "txt2img": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "img2img": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "img_edit": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "t2v": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "i2v": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "f2v": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "voice_clone": {
+                        "type": "object",
+                        "keys_count": 1,
+                        "fields": {
+                          "workflow": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "startup_scripts": [
+    {
+      "name": "envirment.bat",
+      "bytes": 684,
+      "sha256": "f2ba3958f9e49d5db1f8fdc64d84254e9a682d472e19c77ed5f1417309c88fc5",
+      "line_count": 28,
+      "variable_assignments_count": 8,
+      "invoked_tool_labels": [
+        "python",
+        "ffmpeg",
+        "pip"
+      ]
+    },
+    {
+      "name": "备用启动器.bat",
+      "bytes": 653,
+      "sha256": "50f95e8242836d362556c95f243cb7c61fbf6364ff009f61e4cfc293de54da73",
+      "line_count": 29,
+      "variable_assignments_count": 8,
+      "invoked_tool_labels": [
+        "python",
+        "kiwi.exe",
+        "ffmpeg",
+        "pip"
+      ]
+    },
+    {
+      "name": "环境更新补丁-langchain(20250913-只需要运行一次).bat",
+      "bytes": 243,
+      "sha256": "80673dbd9ff5d365668f4052932dde61bd36a21f940adbd2aae72c8d5def1dbd",
+      "line_count": 4,
+      "variable_assignments_count": 0,
+      "invoked_tool_labels": [
+        "python",
+        "pip"
+      ]
+    },
+    {
+      "name": "update_temp/update.bat",
+      "bytes": 543,
+      "sha256": "07daedd71354cbef051d0d3d2747dc50731a95c6369021e2eb14945aaf8a6b2e",
+      "line_count": 23,
+      "variable_assignments_count": 1,
+      "invoked_tool_labels": [
+        "kiwi.exe"
+      ]
+    }
+  ],
+  "errors": [],
+  "tree": {
+    "files_scanned": 38,
+    "directories_scanned": 5,
+    "files_by_suffix": {
+      ".txt": 12,
+      ".exe": 7,
+      ".bat": 4,
+      ".json": 3,
+      ".xlsx": 3,
+      ".config": 2,
+      ".zip": 2,
+      ".dat": 1,
+      ".log": 1,
+      ".enc": 1,
+      ".data": 1,
+      ".jpg": 1
+    },
+    "candidate_code_files": [],
+    "workflow_candidates": [
+      "workflow_presets.json"
+    ],
+    "launch_scripts": [
+      {
+        "file": "envirment.bat",
+        "bytes": 684
+      },
+      {
+        "file": "备用启动器.bat",
+        "bytes": 653
+      },
+      {
+        "file": "环境更新补丁-langchain(20250913-只需要运行一次).bat",
+        "bytes": 243
+      },
+      {
+        "file": "update_temp/update.bat",
+        "bytes": 543
+      }
+    ],
+    "excluded_directories": [
+      ".cache",
+      ".git",
+      ".venv",
+      "__pycache__",
+      "backup",
+      "backups",
+      "cache",
+      "comfyui",
+      "downloads",
+      "input",
+      "inputs",
+      "log",
+      "logs",
+      "models",
+      "models2",
+      "node_modules",
+      "output",
+      "outputs",
+      "private",
+      "runtime",
+      "secrets",
+      "sounds",
+      "temp",
+      "tmp",
+      "user_data",
+      "userdata",
+      "venv"
+    ],
+    "scan_truncated": false
+  },
+  "runtime": {
+    "runtime_present": true,
+    "python_exe_present": true,
+    "python310_dll_present": true,
+    "site_packages_root_entries_checked": 597,
+    "interesting_dependency_directories": [
+      {
+        "name": "diffusers",
+        "detected_release_directory": "diffusers-0.31.0.dist-info"
+      },
+      {
+        "name": "httpx",
+        "detected_release_directory": "httpx-0.27.2.dist-info"
+      },
+      {
+        "name": "langchain",
+        "detected_release_directory": "langchain-0.3.3.dist-info"
+      },
+      {
+        "name": "langchain-community",
+        "detected_release_directory": "langchain_community-0.3.2.dist-info"
+      },
+      {
+        "name": "langchain-core",
+        "detected_release_directory": "langchain_core-0.3.63.dist-info"
+      },
+      {
+        "name": "Nuitka",
+        "detected_release_directory": "Nuitka-2.3.9.dist-info"
+      },
+      {
+        "name": "ollama",
+        "detected_release_directory": "ollama-0.4.5.dist-info"
+      },
+      {
+        "name": "onnxruntime-gpu",
+        "detected_release_directory": "onnxruntime_gpu-1.20.0.dist-info"
+      },
+      {
+        "name": "playwright",
+        "detected_release_directory": "playwright-1.59.0.dist-info"
+      },
+      {
+        "name": "psutil",
+        "detected_release_directory": "psutil-6.1.0.dist-info"
+      },
+      {
+        "name": "pydantic",
+        "detected_release_directory": "pydantic-2.10.4.dist-info"
+      },
+      {
+        "name": "PySide6",
+        "detected_release_directory": "pyside6-6.11.1.dist-info"
+      },
+      {
+        "name": "requests",
+        "detected_release_directory": "requests-2.28.1.dist-info"
+      },
+      {
+        "name": "sentence-transformers",
+        "detected_release_directory": "sentence_transformers-4.0.2.dist-info"
+      },
+      {
+        "name": "sqlalchemy",
+        "detected_release_directory": "sqlalchemy-2.0.43.dist-info"
+      },
+      {
+        "name": "torch",
+        "detected_release_directory": "torch-2.7.1+cu128.dist-info"
+      },
+      {
+        "name": "transformers",
+        "detected_release_directory": "transformers-4.47.0.dist-info"
+      },
+      {
+        "name": "websocket-client",
+        "detected_release_directory": "websocket_client-1.8.0.dist-info"
+      },
+      {
+        "name": "websockets",
+        "detected_release_directory": "websockets-11.0.3.dist-info"
+      }
+    ],
+    "modules_present": {
+      "PySide6": true,
+      "ollama": true,
+      "langchain": true,
+      "torch": true,
+      "diffusers": true,
+      "playwright": true,
+      "fastapi": false,
+      "flask": false,
+      "httpx": true,
+      "requests": true,
+      "sqlalchemy": true,
+      "nuitka": true,
+      "Nuitka": true
+    }
+  }
+}
